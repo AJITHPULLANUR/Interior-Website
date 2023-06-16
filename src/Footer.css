@@ -1,0 +1,667 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navdiv{
+    background-color: white;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0 5px black;
+    
+    
+}
+
+.imgc{
+    width: 120px;
+    height: 90px;
+}
+.book{
+    width: 160px;
+    height: 110px;
+color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    background-image: linear-gradient(white,grey);
+    border-radius: 30px;
+}
+.options{
+    color: white;
+    width: 40%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.op:hover{
+    transform: scale(0.9);
+    transition-duration: 1.2s;
+    color: red;
+}
+.bookho:hover{
+    transform: scale(1.1);
+    transition-duration: 1.2s;
+    color: rgb(247, 243, 13);
+}
+.bookho{
+    color: black;
+}
+.op{
+    color: black;
+}
+
+/* mainheadercss......................................... */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Maindiv1{
+    
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://www.home-designing.com/wp-content/uploads/2016/03/minimalist-low-profile-furniture.jpg);
+    background: -moz-element(110px);
+    margin-top: 8rem;
+
+}
+.design1{
+    width: 90%;
+    height: 60vh;
+    border-radius: 25px;
+    
+}
+.img1{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+
+    
+    align-items: center;
+    line-height: 2.5rem;
+    
+}
+.para{
+    font-size: 18px;
+    color: white;
+    
+}
+
+/* .......................end of Main1...... */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont-1{
+   
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.c-img1{
+    width: 90%;
+    height: 60vh;
+    border-radius: 25px;
+    
+
+}
+.con-sub{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+
+    
+    align-items: center;
+    line-height: 2.5rem;
+   
+}
+.con-sub2{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para1{
+    font-size: 18px;
+    color: rgb(14, 13, 13);
+}
+
+
+/* ...............................end of content1 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.con_2{
+ 
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    
+  
+}
+.con_2img{
+    width: 310px;
+    height: 280px;
+    border-radius: 25px;
+    
+}
+.con_sub{
+    
+   width: 420px;
+   height: 350px;
+    border: 1px solid grey;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0  10px black;
+    border-radius: 50px;
+    padding-top: 2rem;
+    
+    /* background-image: url(https://cdn.pixabay.com/photo/2021/05/30/19/52/abstract-rainbow-6296890_1280.jpg); */
+}
+.bed{
+    color: rgb(8, 8, 8);
+    font-size:22px ;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.con_2img:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+
+}
+.textdiv{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+/* ..............................endof content2 */
+*{
+    margin: 0;
+    padding: 0;
+}
+.con_3{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.con_3imgs{
+   
+    border-radius: 25px;
+
+}
+.con_3imgs:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+/* ..............................end of content3 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont_4{
+  
+    width: 100%;
+    height: 430px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.reviewbox{
+    width: 315px;
+    height: 345px;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    
+}
+.sarathi{
+    border-radius: 20px;
+    
+}
+.rowimage{
+    display: flex;
+  justify-content: space-evenly;
+    align-items: center;
+  
+    width: 200px;
+}
+.reviewtext{
+   
+    height: 200px;
+    width: 90%;
+   line-height: 28px;
+   margin-left: 0.5rem;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 19px;
+ color: grey;
+ padding-top: 10px;
+}
+/* ...............endof content4.... */
+
+
+.headdiv{
+    width: 100%;
+    text-align: center;
+height: 55px;
+    
+    margin-bottom: 2rem;
+    font-size: 23px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+/* ............................endofcontenthead */
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont_5{
+    width: 100%;
+    height: 180px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.para3{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(185, 173, 173);
+}
+
+
+/* .....................endof content5,.......... */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont_6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 600px;
+    background-color: aquamarine;
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://cdn.wallpapersafari.com/96/40/Fb7gf4.jpg);
+
+}
+.para6{
+    font-size: 22px;
+    text-align: center;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para6:hover{
+    color: white;
+}
+.wuddiv{
+    width: 60%;
+    height: 120px;
+   
+}
+/* ....................................................endofcontent6 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+  
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+   
+}
+/* ..............................................endoffooter............. */
+*{
+    margin: 0;
+    padding: 0;
+}
+.end{
+  
+    width: 96%;
+    height: 260px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 0 0 10px grey;
+    display: flex;
+    margin-left: 1.7rem;
+  margin-bottom: 10px;
+    
+}
+.endimage{
+    
+    width: 250px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.email{
+    text-decoration: none;
+}
+.contactus{
+
+    /* background-color: blue; */
+    width: 380px;
+    height: 260px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.gmail{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    /* background-color: coral; */
+    width: 240px;
+    color: gray;
+
+}
+.call{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    /* background-color: crimson; */
+    width: 250px;
+    color: gray;
+
+}
+.us{
+    display: flex;
+    justify-content: center; 
+    
+    /* background-color: darksalmon; */
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bookwu{
+    /* background-color: aqua; */
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.follow{
+    /* background-color: red; */
+    width: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.apps{
+    width: 300px;
+    /* background-color: chartreuse; */
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.whats{
+    /* background-color: darkgreen; */
+    width: 350px;
+    display: flex;
+    justify-content: end;
+}
+
+/* ...........................................endofFooterend........ */
+
+.fullend{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* .................................................theend of end.............. */
+
+
+@media (max-width: 500px){
+    *{
+        overflow-x: hidden;
+    }
+    .navdiv{
+        width: 100%;
+       
+        display: flex;
+        justify-content: space-evenly;
+        height: 100px;
+        align-items: center;
+
+    }
+    .imageddivv{
+        
+        width: 100px;
+    }
+    .options{
+    
+        width: 260px;
+        height: 100px;
+        
+    }
+    .book{
+      
+        width: 100px;
+        height: 60px;
+        margin-left: 2rem;
+        border-radius: 8px;
+
+    }
+    .bookho{
+        font-size: 8px;
+    }
+    .imgc{
+        width: 70px;
+        height: 70px;
+    }
+    .op{
+        font-size: 8px;
+    }
+    /* ...........mainheader.................. */
+
+    .Maindiv1{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .design1{
+        width: 280px;
+        height: 200px;
+    }
+    .img1{
+        object-fit: cover;
+        height: 200px;
+        width: 350px;
+    }
+    .text1{
+       
+        height: 180px;
+        width: 350px;
+        text-align: center;
+    }
+    .para{
+        font-size: 12px;
+        line-height: normal;
+    }
+
+
+    /* ................................main............... */
+
+
+    .cont-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .con-sub{
+        height: 180px;
+        width: 350px;
+        text-align: center;
+    }
+    .con-sub2{
+        object-fit: cover;
+        height: 200px;
+        width: 350px;
+    }
+    .c-img1{
+        width: 280px;
+        height: 200px;  
+    }
+    .para2{
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    /* .................................cont1......... */
+
+    .con_2{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .con_sub{
+        width: 330px;
+        height: 300px;
+
+    }
+    .con_2img{
+       object-fit: cover;
+       height: 150px;
+    }
+
+    /* .............................cont 2......................... */
+    .con_3{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;  
+    }
+    .con_3imgs{
+        object-fit: cover;
+        height: 150px; 
+    }
+
+    /* ...................................cont3................................... */
+
+    .cont_4{
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;   
+    }
+    .reviewtext{
+        line-height: normal;
+
+    }
+    .reviewbox{
+        height: 300px;
+    }
+    .rowimage{
+        height: 70px;
+    }
+
+    /* ..........................cont4............. */
+
+           
+    .para3{
+        font-size: 28px;
+    }
+    .cont_5{
+        text-align: center;
+    }
+
+
+
+    /* ..................cont5............................... */
+
+
+    .para6{
+        font-size: 15px;
+    }
+    .cont_6{
+        height: 500px;
+    }
+
+
+    /* ......................cont6.............................. */
+
+
+    .end{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 325px;
+    }
+    .endimage{
+        
+        height: 100px;
+    }
+    .contactus{
+        
+        height: 140px;
+    }
+    .whats{
+        
+        
+        width: 30%;
+    }
+
+}
